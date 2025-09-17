@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>BAL Overlay Demo</title>
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <h1>BAL Overlay Demo</h1>
+  <input type="file" id="imageLoader" name="imageLoader" accept="image/*" />
+  <br/>
+  <label for="vegetation">Vegetation type:</label>
+  <select id="vegetation">
+    <option value="Forest">Forest</option>
+    <option value="Grassland">Grassland</option>
+  </select>
+  <br/>
+  <button id="drawFootprint">Draw Dwelling Footprint</button>
+  <canvas id="myCanvas"></canvas>
+  <br/>
+  <button id="generateZones">Generate BAL Zones</button>
+
+  <script src="/static/script.js"></script>
+</body>
+</html>
